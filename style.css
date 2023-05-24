@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    z-index: 100;
+}
+#spring,
+#summer,
+#autumn,
+#winter 
+{position: fixed; z-index: 100;}
+
+#tree {position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+}
+.fix {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(img/tree.png)no-repeat;
+    width: 500px;
+    height: 600px;
+}
+.slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#spring .title {
+    position: relative;
+    font-size: 40vh;
+    font-family: 'Playfair Display', serif;
+    color: #FDCEDF;
+    z-index: 10;
+}
+#summer .title {
+    position: relative;
+    font-size: 40vh;
+    font-family: 'Playfair Display', serif;
+    color: #6ecb63;
+    z-index: 10;
+} 
+#autumn .title {
+    position: relative;
+    font-size: 40vh;
+    font-family: 'Playfair Display', serif;
+    color: #7E1717;
+    z-index: 10;
+}
+#winter .title {
+    position: relative;
+    font-size: 40vh;
+    font-family: 'Playfair Display', serif;
+    color: #B0DAFF;
+    z-index: 10;
+}
+#summer.sun {
+    position: fixed;
+    left: 0%;
+    width: 200px; height: 200px;
+}
+#summer.sun img {width: 100%;}
+
+#summer.item1 {
+    position: fixed;
+    right: 0; bottom: 0;
+    width: 300px; height: 300px;
+}
+#summer.item1 img {width: 100%;}
+#summer.item2 {
+    position: fixed;
+    right: 0; bottom: 0;
+    width: 300px; height: 300px;
+}
+#summer.item2 img {width: 100%;}
+
+
+#autumn.chair {
+    position: fixed;
+    left: 0; top: 20%;
+    width: 600px; height: 400px;
+}
+#autumn.chair img {width: 100%; height: 100%;}
+
+#autumn.sol {
+    position: fixed;
+    right: 30%;
+    width: 100px; height: 100px;
+}
+#autumn.sol img {width: 100%;}
+
+#autumn.daram {
+    position: fixed;
+    right: 0; bottom: 156px;
+    width: 200px; height: 200px;
+}
+#autumn.daram img {width: 100%}
+
+.flower {
+    position: fixed;
+    z-index: 100;
+}
+.f1 {
+    left: 137px;
+    top: 8px;
+    width: 70px;
+}
+
+.f2 {
+    left: 70px;
+    top: 44px;
+    width: 70px;
+}
+
+.f3 {
+    left: 70px;
+    top: 118px;
+    width: 80px;
+}
+
+.f4 {
+    left: 239px;
+    top: -20px;
+    width: 80px;
+}
+
+.f5 {
+    left: 19px;
+    top: 190px;
+    width: 70px;
+}
+
+.f6 {
+    left: 152px;
+    top: 99px;
+    width: 70px;
+}
+
+.f7 {
+    right: 41px;
+    top: 131px;
+    width: 80px;
+}
+
+.f8 {
+    right: 99px;
+    top: 10px;
+    width: 80px;
+}
+
+.f9 {
+    right: 51px;
+    top: 132px;
+    width: 70px;
+}
+
+.f10 {
+    right: 35px;
+    top: 10px;
+    width: 70px;
+}
+
+.f11 {
+    right: -5px;
+    top: 170px;
+    width: 80px;
+}
+
+.f12 {
+    right: 124px;
+    top: 132px;
+    width: 80px;
+}
+
+.f13 {
+    right: 102px;
+    top: 212px;
+    width: 70px;
+}
+
+.f14 {
+    left: 116px;
+    top: 203px;
+    width: 80px;
+}
+
+.f15 {
+    right: 197px;
+    top: 93px;
+    width: 80px;
+}
+
+.f16 {
+    left: 67px;
+    top: 249px;
+    width: 70px;
+}
+
+.flower img {
+    width: 100%;
+}
+
+#winter.snow {
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    width: 90px;
+    z-index: 50;
+}
+#winter.snow img {width: 100%;}
+#winter.sn1 {right: 0; top: 0;}
